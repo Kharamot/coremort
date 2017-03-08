@@ -20,12 +20,20 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>I awlways need your location</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>I sometimes need your location</string>
+	<key>NSMotionUsageDescription</key>
+	<string>I need to see you move</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
+		<string>accelerometer</string>
+		<string>gps</string>
 		<string>armv7</string>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
